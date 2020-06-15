@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="search.js"></script>
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+    <a href="https://www.freecounterstat.com" title="website counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=ywupru6crzplh7559dudezht9yedx6lp" border="0" title="website counter" alt="website counter"></a>
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images\gdworkshop.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>SOFTWARE</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> GDWORKSHOP</h1>
+  
+    <img src="images\gdworkshop.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Python and C language</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    
+
+    
+    
+    
+
+    
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Softwares</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+  </table>
+  <input id="searchbar" onkeyup="search_soft()" type="text"
+          name="search" placeholder="Search software.."> 
+
+    <table>
+      <td>
+          <ol id='list'>
+              <h2><li class="search"><a href="http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.02/en_US/AdbeRdr11002_en_US.exe"> Adobe Reader XI</a></li></h2>
+              <h2><li class="search"><a href="https://docs.google.com/u/0/uc?export=download&confirm=Bdpe&id=1ZKwnRU4-EFqT07o_tDU5IwC3zq4-JWA8"> Adobe Premier Pro CC 2019 </a></li></h2>
+              <h2><li class="search"><a href="https://docs.google.com/u/0/uc?export=download&confirm=T2qq&id=1cuaBxMcFhkOlgEc5i8sEUrkzNGvZOTMO"> Adobe Lightroom CC 2019 </a></li></h2>
+              <h2><li class="search"><a href="https://docs.google.com/u/0/uc?export=download&confirm=ss0n&id=1e6XvFAg72lNuyW5sBQ3bqPuI2Q8U-toh"> Adobe Illustrator CC 2019I</a></li></h2>
+              <h2><li class="search"><a href="https://docs.google.com/u/0/uc?export=download&confirm=-YAy&id=1AE69fhxc7hrAsBJ_MBqOwne886KFTYBf"> Adobe Animator CC 2019 </a></li></h2>
+              <h2><li class="search"><a href="https://docs.google.com/u/0/uc?export=download&confirm=APkL&id=1wDiSeFdXgbzexohpnT6_dwHC0Ioe8ywt"> Adobe InDesign CC 2019</a></li></h2>
+              <h2><li class="search"><a href="https://r1---sn-gwpa-jv3e.gvt1.com/edgedl/android/studio/install/4.0.0.16/android-studio-ide-193.6514223-windows.exe?cms_redirect=yes&mh=7O&mip=2409:4073:408:674e:82:ff41:10cc:5b48&mm=28&mn=sn-gwpa-jv3e&ms=nvh&mt=1591720816&mv=m&mvi=0&pl=36&shardbypass=yes"> Android Studio</a></li></h2>
+              <h2><li class="search"><a href="https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B0E2DD067-8706-3B01-E4CD-714FCAB33823%7D%26lang%3Den%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe"> ChromeSetup</a></li></h2>
+              <h2><li class="search"><a href="https://nchc.dl.sourceforge.net/project/codeblocks/Binaries/20.03/Windows/codeblocks-20.03mingw-setup.exe"> codeblocks</a></li></h2>
+              <h2><li class="search"><a href="shttps://doc-0s-2g-docs.googleusercontent.com/docs/securesc/t0ahoticj6hgbdl90udpgt9q7vi67eem/gpjepekp0m36ch9bn43tj4kmrl8hiqv7/1591763100000/12351225819927257653/12351225819927257653/1z9sNnfGuesoR_MtTBjseQnnJ9Ng7XwcW?e=download&authuser=1&nonce=6mdus4lvt6ahi&user=12351225819927257653&hash=hrqadcnq6i08omd70a44sjt2fqcjh194"> convert-pdf-to-word-plus</a></li></h2>
+              <h2><li class="search"><a href="https://excellmedia.dl.sourceforge.net/project/orwelldevcpp/Setup%20Releases/Dev-Cpp%205.11%20TDM-GCC%204.9.2%20Setup.exe"> Dev C++</a></li></h2>
+              <h2><li class="search"><a href="http://findandmount.com/fnmsetup.exe"> find and mount </a></li></h2>
+              <h2><li class="search"><a href="https://download-installer.cdn.mozilla.net/pub/firefox/releases/77.0.1/win32/en-US/Firefox%20Installer.exe"> Mozilla Firefox</a></li></h2>
+              <h2><li class="search"><a href="http://ltspice.analog.com/software/LTspiceXVII.exe"> LTspiceXVII</li></h2>
+              <h2><li class="search"><a href="https://dl5.filehippo.com/72f/3e2/f18e83d60ec657f03c341a3c1df701c2a9/picasa39-setup.exe?Expires=1591752266&Signature=8b13bf7c9142e3f3a7027ff23fa493fede71e4ec&url=https://filehippo.com/download_picasa/&Filename=picasa39-setup.exe"> picasa</a></li></h2>
+              <h2><li class="search"><a href="soft/winrar%20v%203.80.exe"> winrar v 3.80.</a></li></h2>
+              <h2><li class="search"><a href="https://mirrors.estointernet.in/videolan/vlc/3.0.10/win64/vlc-3.0.10-win64.exe"> vlc-3.0.8</a></li></h2>
+              <h2><li class="search"><a href="https://ia801001.us.archive.org/34/items/windows10_201909/Windows10.iso"> vlc-3.0.8</a></li></h2>
+             
+              <td>
+       
+                <ol id='list'>
+                <h2><li class="search"><a href="https://ia801001.us.archive.org/34/items/windows10_201909/Windows10.iso"> Windows 10 Professional(W269N-WFGWX-YVC9B-4J6C9-T83GX)</a></li></h2>
+                 <h2><li class="search"><a href="https://mirrors.xtom.com/osdn//storage/g/m/ma/manjaro/xfce/20.0.3/manjaro-xfce-20.0.3-200606-linux56.iso">Manjaro Linux</a></li></h2>
+                 <h2><li class="search"><a href="https://releases.ubuntu.com/20.04/ubuntu-20.04-desktop-amd64.iso">Ubuntu</a></li></h2>
+                </ol>
+                    </td>
+               
+     
+                
+             
+              
+          </ol>
+          </td>
+          </table>
+
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Kerala,india</p>
+   
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: gdworkshop@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">copyright(c) 2020 GDWORKSHOP</p>
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
